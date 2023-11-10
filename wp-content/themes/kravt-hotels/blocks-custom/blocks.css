@@ -1,0 +1,103 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html :where(.wp-block) {
+  margin: 28px 0 0 0;
+}
+
+div[data-title="slider-item-1"],
+div[data-title="slider-item"],
+div[data-title="slider-content-p-span-multiple"],
+div[data-title="hotel-type"],
+div[data-title="mini-block-hotel-number"],
+div[data-title="news-block"],
+div[data-title="beside-block"]{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+div[data-title="section-1"] div[data-title="section-1"] {
+  border-color: rgb(179, 179, 179)!important;
+}
+
+div[data-title="section-1"] div[data-title="section-1"]  div[data-title="section-1"]{
+  border-color: rgb(172, 171, 171)!important;
+}
+div[data-title="section-1"] div[data-title="section-1"]  div[data-title="section-1"] div[data-title="section-1"]{
+  border-color: rgb(134, 133, 133)!important;
+}
+div[data-title="section-1"] div[data-title="section-1"]  div[data-title="section-1"] div[data-title="section-1"] div[data-title="section-1"]{
+  border-color: rgb(95, 95, 95)!important;
+}
+
+div[data-title="slider-item-1"] .wp-block,
+div[data-title="slider-item"] .wp-block,
+div[data-title="slider-content-p-span-multiple"] .wp-block,
+div[data-title="hotel-type"] .wp-block,
+div[data-title="mini-block-hotel-number"] .wp-block,
+div[data-title="news-block"] .wp-block,
+div[data-title="beside-block"] .wp-block{
+  margin-top: 0px;
+}
+
+div[data-title="slider-item-1"] div:not([class]),
+div[data-title="slider-content-p-span-multiple"] div:not([class]),
+div[data-title="mini-block-hotel-number"] div:not([class]),
+div[data-title="news-block"] div:not([class]),
+div[data-title="beside-block"] div:not([class]) {
+  display: flex;
+  flex-direction: column;
+}
+
+div[data-title="slider-item-1"] .block-editor-inner-blocks,
+div[data-title="slider-item"] .block-editor-inner-blocks,
+div[data-title="slider-content-p-span-multiple"] .block-editor-inner-blocks,
+div[data-title="hotel-type"] .block-editor-inner-blocks,
+div[data-title="mini-block-hotel-number"] .block-editor-inner-blocks,
+div[data-title="news-block"] .block-editor-inner-blocks,
+div[data-title="beside-block"] .block-editor-inner-blocks{
+  margin-top: 0px;
+  min-width: 250px;
+  min-height: 250px;
+  max-width: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+div[data-title="slider-item-1"] figure,
+div[data-title="slider-item"] figure,
+div[data-title="slider-content-p-span-multiple"] figure,
+div[data-title="hotel-type"] figure,
+div[data-title="mini-block-hotel-number"] figure,
+div[data-title="news-block"] figure,
+div[data-title="beside-block"] figure{
+  margin-top: 0px;
+}
+
+div[data-title="slider-item-1"] .components-resizable-box__container,
+div[data-title="slider-item"] .components-resizable-box__container,
+div[data-title="slider-content-p-span-multiple"]
+  .components-resizable-box__container,
+div[data-title="hotel-type"] .components-resizable-box__container,
+div[data-title="mini-block-hotel-number"] .components-resizable-box__container,
+div[data-title="news-block"] .components-resizable-box__container,
+div[data-title="beside-block"] .components-resizable-box__container{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* slider-content-p-span-multiple */
+
+div[data-title="slider-content-p-span-multiple"] div:not([class]) {
+  gap: 5px;
+}
+
+/* hotel-type */
+
+div[data-title="hotel-type"] div:not([class]) {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
